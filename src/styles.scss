@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./reset.scss";
+
+p, h1, h2, h3, h4, span, a, .h1, .h2, .h3, .h4
+{
+  color: #ffffff;
+}
+
+.container-fluid{
+  background-color:	#263238;
+}
+
+a:visited
+{
+  background-color: #cc0066;
+}   
+
+h1
+{
+  font-weight: bold;
+  padding: 3px;
+  color: #ffffff;
+}
+
+//MODAL
+
+.modal-header
+{
+  background-color: #1C2331;
+  text-align: center;
+}
+
+.modal-body
+{
+  background-color: #263238;
+}
+  
+.modal-footer
+{
+  display: none;
+}

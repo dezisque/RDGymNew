@@ -1,0 +1,36 @@
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark unique-color-dark">
+  <logo><a class="navbar-brand" routerLink="/"><img src="https://cdn1.savepice.ru/uploads/2018/3/2/82dad412bd72befa551398a5ac7ddcb3-full.png" alt=""></a></logo>
+  <links>
+      <ul class="navbar-nav m-auto">
+          <li class="nav-item">
+              <a class="nav-link waves-light" mdbRippleRadius routerLink="/">Главная<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link waves-light" mdbRippleRadius routerLink="/about">О нас</a>
+          </li>
+          <li class="nav-item dropdown" dropdown>
+              <a dropdownToggle mdbRippleRadius type="button" class="nav-link dropdown-toggle waves-light" mdbRippleRadius>
+              Программы<span class="caret"></span></a>
+              <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary unique-color-dark " role="menu">
+                  <a class="dropdown-item waves-light" mdbRippleRadius href="#">Action</a>
+                  <a class="dropdown-item waves-light" mdbRippleRadius href="#">Another action</a>
+                  <a class="dropdown-item waves-light" mdbRippleRadius href="#">Something else here</a>
+                  <div class="divider dropdown-divider"></div>
+                  <a class="dropdown-item waves-light" mdbRippleRadius href="#">Separated link</a>
+              </div>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link waves-light" mdbRippleRadius routerLink="/events">Мероприятия</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link waves-light" mdbRippleRadius routerLink="/membership">Членство</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link waves-light" mdbRippleRadius routerLink="/contacts">Контакты</a>
+          </li>
+      </ul>
+      <form class="form-inline  waves-light" >
+        <app-social-icons></app-social-icons>
+      </form>
+  </links>
+</mdb-navbar>

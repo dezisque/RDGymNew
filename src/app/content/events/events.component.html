@@ -1,0 +1,12 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let event of events">
+      <div class="events-item transition-scale" (click)="openModal(event)">
+        <h2 class=" title">{{ event.title }}</h2>
+        <img src="{{ event.imageUrl }}" width="100%" alt="image"/>
+        <p class="description">{{ event.description }}</p>
+        <a class="waves-light events-link" title="More description">More info</a>
+      </div>
+    </div>
+  </div>
+</div>

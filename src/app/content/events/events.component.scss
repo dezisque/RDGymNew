@@ -1,0 +1,30 @@
+.events-item
+{
+  width: 99%;
+  margin: 0 auto;
+  color: #ffffff;
+  background-color: #1C2331;
+  margin: 10px 0 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+.description
+{
+  padding: 20px 0;
+  border-bottom: 1px solid #cc0066;
+}
+
+.events-link
+{
+  padding: 10px 0;
+}
+
+.transition-scale {
+  z-index: 2;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+.transition-scale:hover {
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+}
