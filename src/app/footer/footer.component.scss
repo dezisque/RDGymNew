@@ -1,5 +1,23 @@
 footer{
-    margin: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0 20px 0;
+}
+
+.container{
+    padding-bottom: 5px;
+}
+
+#footext h1{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+#footext p{
+    font-size: 17px;
+    margin-left: 3px;
 }
 
 #sslk{
@@ -8,6 +26,32 @@ footer{
 
 #sslk ul{
     margin-top: 7px;
+}
+
+#sslk li{
+    text-align: center;
+    margin-top: 4px;
+}
+
+.title{
+    text-align: center;
+}
+
+#sslk img{
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+}
+
+#sslk #pin
+{
+    margin-top: 10px;
+}
+
+#sslk #tel
+{
+    padding-top: 8px;
+    margin-top: 10px;
 }
 
 #footext{
