@@ -1,0 +1,19 @@
+.parallax { 
+    background-image: url("https://pp.userapi.com/c624723/v624723062/46eee/_Pj89zMXKpQ.jpg");
+    height: 700px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-wrapper{
+    height: 700px;
+    background: snow;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
