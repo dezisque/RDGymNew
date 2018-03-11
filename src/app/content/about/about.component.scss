@@ -1,15 +1,41 @@
 .parallax { 
-    background-image: url("https://pp.userapi.com/c624723/v624723062/46eee/_Pj89zMXKpQ.jpg");
-    height: 700px; 
+    background-image: url("https://roadtothedream.com/images/main_page_poster.jpg?v=1.8");
+    height: 1100px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.parallax h1{
+    font-size: 35px;
+    font-style: oblique;
+}
+
+.parallax h2{
+    font-size: 55px;
+    font-style: oblique;
+}
+
+.rd{
+float: left;
+}
+
+.gym{
+    color: red;
+    float: left;
+}
+
+span{
+    position: absolute;
+    top: 350px;
+    left: 30px;
+    text-align: center;
+}
+
 .content-wrapper{
-    height: 700px;
-    background: snow;
+    height: 300px;
+    background:#263238;
 }
 
 @media only screen and (max-device-width: 1366px) {
