@@ -1,5 +1,8 @@
-.parallax { 
+.parallax-one { 
     background-image: url("https://roadtothedream.com/images/main_page_poster.jpg?v=1.8");
+}
+
+.parallax-one, .parallax-two {
     height: 1100px; 
     background-attachment: fixed;
     background-position: center;
@@ -7,39 +10,67 @@
     background-size: cover;
 }
 
-.parallax h1{
+.parallax-two { 
+    background-image: url("https://sun1-7.userapi.com/c834400/v834400835/28060/v0LKtLNACyU.jpg");
+}
+
+.parallax-one h1{
     font-size: 35px;
     font-style: oblique;
 }
 
-.parallax h2{
+.parallax-one h2{
     font-size: 55px;
     font-style: oblique;
 }
 
 .rd{
-    
+    float: left;
 }
 
 .gym{
     color: red;
+}
+
+.content-wrapper-one, .content-wrapper-two{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-wrapper-one{
+    height: 1100px;
+    background-image: url("https://pp.userapi.com/c841120/v841120329/72ca4/1PMrMjqjSEo.jpg");
+}
+
+.content-wrapper-two{
+    height: 1100px;
+    background-image: url("https://pp.userapi.com/c635101/v635101003/3cd63/AtEGhrgiopY.jpg");
+}
+
+.content-wrapper-description{
+    margin-top: 20px;
+    width: 50%;
+    font-size: 30px;
+}
+
+.content-wrapper-text{
+    font-size: 55px;
+    font-style: oblique;
+    margin-top: 450px;
+}
+
+.right{
+    float: right;
+    margin-right: 50px;
+}
+
+.left{
     float: left;
-}
-
-span{
-    position: absolute;
-    top: 350px;
-    left: 30px;
-    text-align: center;
-}
-
-.content-wrapper{
-    height: 300px;
-    background:#263238;
+    margin-left: 50px;
 }
 
 @media only screen and (max-device-width: 1366px) {
-    .parallax {
+    .parallax-one {
         background-attachment: scroll;
     }
 }
