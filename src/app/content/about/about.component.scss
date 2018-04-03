@@ -1,9 +1,39 @@
+
 .parallax-one { 
     background-image: url("https://roadtothedream.com/images/main_page_poster.jpg?v=1.8");
 }
 
+.col-md-12{
+    padding: 0;
+}
+
+.arrow{
+    background-image: url("https://image.ibb.co/htYF9x/down_arrow.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    position: absolute; bottom: 0; right: 0; left: 0;
+}
+
+.arrow:hover{
+    background-image: url("https://image.flaticon.com/icons/svg/118/118738.svg");
+}
+
+#up-arrow{
+    background-image: url("https://image.ibb.co/fn4rGc/up_arrow_1.png") !important;
+    background-repeat: no-repeat;
+    bottom: 40px;
+}
+
+#up-arrow:hover{
+    background-image: url("https://image.flaticon.com/icons/svg/159/159693.svg") !important;
+}
+
 .parallax-one, .parallax-two {
-    height: 1100px; 
+    height: 100vh;
+    position: relative; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,15 +65,14 @@
 .content-wrapper-one, .content-wrapper-two{
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 .content-wrapper-one{
-    height: 1100px;
     background-image: url("https://pp.userapi.com/c841120/v841120329/72ca4/1PMrMjqjSEo.jpg");
 }
 
 .content-wrapper-two{
-    height: 1100px;
     background-image: url("https://pp.userapi.com/c635101/v635101003/3cd63/AtEGhrgiopY.jpg");
 }
 
@@ -59,6 +88,10 @@
     margin-top: 450px;
 }
 
+.content-wrapper-text h1, h2, h3{
+    margin-left: 50px;
+}
+
 .right{
     float: right;
     margin-right: 50px;
@@ -66,7 +99,6 @@
 
 .left{
     float: left;
-    margin-left: 50px;
 }
 
 @media only screen and (max-device-width: 1366px) {

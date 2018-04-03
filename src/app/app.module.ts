@@ -22,6 +22,7 @@ import { BlocksComponent } from './content/home/blocks/blocks.component';
 import { MapComponent } from './content/contacts/map/map.component';
 import { SocialIconsComponent } from './header/social-icons/social-icons.component';
 import { InfoComponent } from './content/contacts/info/info.component';
+import {Ng2PageScrollModule} from 'ng2-page-scroll';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { InfoComponent } from './content/contacts/info/info.component';
     MDBBootstrapModule.forRoot(),
     BrowserModule,
     AppRoutingModule,
+    Ng2PageScrollModule,
     ModalModule.forRoot(),
     BootstrapModalModule,
     AgmCoreModule.forRoot({

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {PageScrollConfig} from 'ng2-page-scroll';
 
 @Component({
   selector: 'app-about',
@@ -6,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
-  constructor() { }
-
-  ngOnInit() {
+  constructor() { 
+    PageScrollConfig.defaultDuration = 600;
+    PageScrollConfig.defaultScrollOffset = 0;
   }
+  fragment;
+  route;
+  ngOnInit() {
+
+   }
 
 }

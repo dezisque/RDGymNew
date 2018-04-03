@@ -8,6 +8,8 @@
 html,
 body {
   height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 .wrapper {
   position: relative;
@@ -24,6 +26,8 @@ p, h1, h2, h3, h4, span, a, .h1, .h2, .h3, .h4
 
 .container-fluid{
   background-color:	#263238;
+  margin-top: 54px;
+  padding: 0;
 }
 
 a:visited
